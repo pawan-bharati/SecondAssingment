@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    tools:context=".Second.Sum">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/etfirstsum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="#808080"
+        android:gravity="center"
+        android:hint="Enter First Number"
+        android:inputType="number"
+        android:textColor="#ffffff" />
+
+
+    <EditText
+        android:id="@+id/etsecondsum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="#808080"
+        android:gravity="center"
+        android:hint="Enter Second Number"
+        android:inputType="number"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnsum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/tvsum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#ffffff" />
+</LinearLayout>
